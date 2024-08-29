@@ -3,7 +3,7 @@ import ProductCard from "./layouts/ProductCard";
 import product1 from "../assets/img/products/product1.jpg";
 import product2 from "../assets/img/products/product2.jpg";
 import product3 from "../assets/img/products/product3.jpg";
-import productText from "../assets/products-text.png";
+import productText from "../assets/title1.png";
 
 const Products = () => {
   return (
@@ -18,7 +18,7 @@ const Products = () => {
           <h2 className="text-2xl tracking-wider font-belleza">
             Soaps & Diffusers
           </h2>
-          <h1 className="font-semibold text-4xl font-belleza">
+          <h1 className="font-semibold tracking-wider text-4xl font-belleza ">
             PICKS FOR THIS SEASON
           </h1>
         </div>

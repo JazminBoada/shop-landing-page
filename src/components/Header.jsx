@@ -62,9 +62,7 @@ const Header = () => {
         </div>
 
         <div className="flex flex-col items-center gap-2 pr-16 tracking-widest">
-          <h1 className=" text-xl font-semibold font-logo cursor-pointer">
-            GAIA
-          </h1>
+          <h1 className=" text-xl font-semibold cursor-pointer">GAIA</h1>
           <p>Handmade candles & soaps</p>
           <p>Est. 1995</p>
         </div>
