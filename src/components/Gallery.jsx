@@ -6,7 +6,7 @@ import soaps from "../assets/img/Gallery/pic4.jpg";
 
 const Gallery = () => {
   return (
-    <div className="flex justify-center py-10 my-8">
+    <div className="flex justify-center pt-10 pb-2 my-4">
       <main className="flex flex-row items-center justify-center space-x-8 w-full max-w-screen-4xl mx-8">
         {[
           { src: candle, alt: "candle", title: "Make" },
@@ -16,7 +16,7 @@ const Gallery = () => {
         ].map((item, index) => (
           <div
             key={index}
-            className="relative w-1/3 shadow-xl transition-all duration-300 ease-in-out transform hover:opacity-70 cursor-pointer "
+            className="relative w-1/3 shadow-xl transition-all duration-300 ease-in-out transform hover:opacity-85 hover:scale-110 cursor-pointer"
           >
             <img
               src={item.src}
@@ -24,7 +24,7 @@ const Gallery = () => {
               className="w-full transition-opacity duration-300 ease-in-out rounded-md"
             />
             <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 ">
-              <span className="text-white text-5xl font-bold ">
+              <span className="text-black text-5xl font-bold ">
                 {item.title}
               </span>
             </div>

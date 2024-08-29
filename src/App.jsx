@@ -1,5 +1,6 @@
 import "./App.css";
 import Categories from "./components/Categories";
+import Connect from "./components/Connect";
 import Gallery from "./components/Gallery";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -11,20 +12,25 @@ import Shop from "./components/Shop";
 function App() {
   return (
     <div>
-      <Header />
+      <div id="home">
+        <Header />
+      </div>
       <Hero />
       <Gallery />
       <Products />
       <Categories />
 
-      <div>
+      <div id="shop">
         <Shop />
       </div>
       <div>
+        <Reviews />
+      </div>
+      <div id="service">
         <Service />
       </div>
-      <div>
-        <Reviews />
+      <div id="connect">
+        <Connect />
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ import { ImQuotesRight } from "react-icons/im";
 
 const Reviews = () => {
   return (
-    <div className="text-gray-dark my-10">
+    <div className="text-gray-dark bg-beige-light">
       <main className="flex flex-row items-center  w-full">
         <section className="ml-32">
           <ImQuotesRight className="w-14 h-14 mb-10" />

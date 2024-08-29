@@ -6,7 +6,7 @@ const CategoriesCards = ({ image, title, subtitle }) => {
       <img
         src={image}
         alt={title}
-        className="w-full h-full  object-cover transition-transform duration-500 transform hover:scale-110 cursor-pointer"
+        className="w-full h-full object-cover transition-transform duration-500 transform hover:scale-110 cursor-pointer"
       />
       <div className="absolute bottom-0 left-0 p-4">
         <h1 className="text-white text-2xl uppercase tracking-wider drop-shadow-md">

@@ -5,64 +5,91 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineSearch } from "react-icons/ai";
 import { AiOutlineHeart } from "react-icons/ai";
 import { AiOutlineShopping } from "react-icons/ai";
-import Lotus from "../assets/img/lotus.svg";
-import Candle from "../assets/img/candle.svg";
+import TextDecoration from "./layouts/TextDecoration";
 
 const Header = () => {
   return (
-    <header className="bg-[url('./assets/img/Hero/img1.png')] bg-cover bg-no-repeat h-[85vh] text-white">
+    <header className="bg-[url('./assets/img/Hero/img1.jpg')] bg-cover bg-no-repeat h-[85vh] text-white">
       <div className="flex items-center justify-around p-10">
-        <div className="flex xl:gap-10 xl:text-xl font-semibold">
+        <div className="flex xl:gap-10 xl:text-xl">
           <div className=" relative group">
             <Link
-              to="perfil"
+              to="home"
               spy={true}
               smooth={true}
               duration={300}
               className=" transition-all cursor-pointer "
             >
-              Home
+              <div className="relative inline-block cursor-pointer">
+                <span
+                  className="text-xl   relative after:absolute after:bg-white after:bottom-0 after:left-0 after:h-px after:w-full 
+                  after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+                >
+                  Home
+                </span>
+              </div>
             </Link>
           </div>
           <div className=" relative group">
             <Link
-              to="perfil"
+              to="shop"
               spy={true}
               smooth={true}
-              duration={300}
+              duration={600}
               className=" transition-all cursor-pointer  "
             >
-              Shop
+              <div className="relative inline-block cursor-pointer">
+                <span
+                  className="text-xl   relative after:absolute after:bg-white after:bottom-0 after:left-0 after:h-px after:w-full 
+                  after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+                >
+                  Shop
+                </span>
+              </div>
             </Link>
           </div>
 
           <div className=" relative group">
             <Link
-              to="perfil"
+              to="service"
               spy={true}
               smooth={true}
-              duration={300}
+              duration={600}
               className=" transition-all cursor-pointer "
             >
-              Service
+              <div className="relative inline-block cursor-pointer">
+                <span
+                  className="text-xl   relative after:absolute after:bg-white after:bottom-0 after:left-0 after:h-px after:w-full 
+                  after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+                >
+                  Service
+                </span>
+              </div>
             </Link>
           </div>
 
           <div className=" relative group">
             <Link
-              to="perfil"
+              to="connect"
               spy={true}
               smooth={true}
-              duration={300}
+              duration={600}
               className="transition-all cursor-pointer "
             >
-              Contact us
+              <div className="relative inline-block cursor-pointer">
+                <span
+                  className="text-xl   relative after:absolute after:bg-white after:bottom-0 after:left-0 after:h-px after:w-full 
+                  after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+                >
+                  Contact us
+                </span>
+              </div>
             </Link>
           </div>
         </div>
 
         <div className="flex flex-col items-center gap-2 pr-16 tracking-widest">
-          <h1 className=" text-xl font-semibold cursor-pointer">GAIA</h1>
+          <h1 className=" text-xl cursor-pointer">GAIA</h1>
           <p>Handmade candles & soaps</p>
           <p>Est. 1995</p>
         </div>
