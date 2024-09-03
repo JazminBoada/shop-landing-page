@@ -2,7 +2,7 @@ import React from "react";
 
 const CategoriesCards = ({ image, title, subtitle }) => {
   return (
-    <div className="relative w-2/5 overflow-hidden shadow-md rounded-md">
+    <div className="relative w-full md:w-2/5 overflow-hidden shadow-md">
       <img
         src={image}
         alt={title}

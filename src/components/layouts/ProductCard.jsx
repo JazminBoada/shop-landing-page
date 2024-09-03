@@ -15,7 +15,7 @@ const ProductCard = ({ image, title, text, price, button }) => {
       <h2 className="text-xl">{text}</h2>
       <p className="text-2xl pt-2">{price}</p>
       <div className="flex items-center w-full mb-4 gap-2 py-2">
-        <button className="flex items-center justify-center gap-2 flex-row flex-grow font-belleza border border-beige-regular bg-white text-beige-regular px-4 py-2 rounded-md tracking-wide  shadow-xl  hover:bg-beige-light active:scale-90 transform transition-all duration-300">
+        <button className="flex items-center justify-center gap-2 flex-row flex-grow font-belleza border border-beige-regular bg-white text-beige-regular px-4 py-2 rounded-md tracking-wide  shadow-md  hover:bg-beige-regular hover:text-white active:scale-90 transform transition-all duration-300">
           ADD TO CART <BsCart />
           {button}
         </button>

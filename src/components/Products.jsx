@@ -9,27 +9,33 @@ const Products = () => {
   return (
     <div className="text-gray-dark">
       <main className="max-w-screen-xl mx-auto px-4 py-4 text-center">
-        <h1 className="text-9xl font-title text-beige-regular">Best Sellers</h1>
-        <h3 className="text-2xl tracking-wider">Candles, Soaps & Diffusers</h3>
-        <h2 className=" tracking-wider text-4xl">PICKS FOR THIS SEASON</h2>
-        <section className="flex flex-row my-10">
+        <h1 className="text-8xl md:text-9xl font-title text-beige-regular">
+          Best Sellers
+        </h1>
+        <h3 className="text-xl md:text-2xl tracking-wider">
+          Candles, Soaps & Diffusers
+        </h3>
+        <h2 className=" tracking-wider text-3xl md:text-4xl">
+          PICKS FOR THIS SEASON
+        </h2>
+        <section className="flex flex-col md:flex-row md:gap-4 my-10">
           <ProductCard
             image={product1}
             title="Vela Aromática"
-            text="Flores de Naranjo"
+            text="Coconut & Vanilla"
             price="$20.00"
           />
           <ProductCard
             image={product2}
-            title="Aceites Naturales"
-            text="Nardo, Lavanta y Menta"
-            price="$20.00"
+            title="Natural Soaps"
+            text="Fresh Orange"
+            price="$18.00"
           />
           <ProductCard
             image={product3}
-            title="Jabones Naturales"
-            text="Naranja, Jazmin y Mandarina"
-            price="$20.00"
+            title="Diffusers"
+            text="Lemon & Tangerine"
+            price="$15.00"
           />
         </section>
       </main>

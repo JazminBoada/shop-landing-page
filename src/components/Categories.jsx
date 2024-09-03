@@ -8,26 +8,26 @@ import diffusers from "../assets/img/section-2/diffusers.jpg";
 const Categories = () => {
   return (
     <div className="font-belleza mb-16">
-      <main className="flex flex-row space-x-8">
+      <main className="flex flex-col md:gap-4 md:flex-row md:flex-wrap xl:flex-nowrap md:justify-center gap-2">
         <CategoriesCards
           image={candle}
           title="Candles"
-          subtitle="Naranja, Nardo, Lavanda"
+          subtitle="Cinnamon, Jasmine & Orange"
         />
         <CategoriesCards
           image={diffusers}
-          title="soaps"
-          subtitle="Naranja, Nardo, Lavanda"
+          title="Soaps"
+          subtitle="Coconut & Vanilla "
         />
         <CategoriesCards
           image={oils}
-          title="oils"
-          subtitle="Naranja, Nardo, Lavanda"
+          title="Natural Oils"
+          subtitle="Lavender, Eucalyptus & Mint"
         />
         <CategoriesCards
           image={soaps}
-          title="diffuserss"
-          subtitle="Jazmine, Nardo, Lavanda"
+          title="Diffuserss"
+          subtitle="Lavender, Cinnamon & Orange"
         />
       </main>
     </div>

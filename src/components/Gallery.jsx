@@ -1,4 +1,5 @@
 import React from "react";
+
 import candle from "../assets/img/Gallery/pic1.jpg";
 import diffuser from "../assets/img/Gallery/pic2.jpg";
 import oil from "../assets/img/Gallery/pic3.jpg";
@@ -6,7 +7,7 @@ import soaps from "../assets/img/Gallery/pic4.jpg";
 
 const Gallery = () => {
   return (
-    <div className="flex justify-center pt-10 pb-2 my-4">
+    <div className="hidden xl:flex justify-center pt-10 pb-2 my-4">
       <main className="flex flex-row items-center justify-center space-x-8 w-full max-w-screen-4xl mx-8">
         {[
           { src: candle, alt: "candle", title: "Make" },
